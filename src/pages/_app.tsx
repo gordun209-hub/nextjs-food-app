@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css'
 import { withTRPC } from '@trpc/next'
-import { AppType } from 'next/dist/shared/lib/utils'
+    import { AppType } from 'next/dist/shared/lib/utils'
 import { AppRouter } from '@backend/routers'
 import { ChakraProvider } from '@chakra-ui/react'
 

@@ -1,9 +1,9 @@
 import { trpc } from '@utils/trpc'
 
 const login = () => {
-  const { mutate } = trpc.useMutation(['auth_signin'], {
-    onSuccess(data) {
-      alert(data)
+     const { mutate } = trpc.useMutation(['auth_signin'], {
+      onSuccess(data) {
+         alert(data)
     },
     onError(err) {
       alert(err)

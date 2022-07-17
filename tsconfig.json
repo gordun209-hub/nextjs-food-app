@@ -20,7 +20,7 @@
       "@utils/*": ["./src/utils/*"],
       "@components/*": ["./src/components/*"],
       "@api/*": ["./src/pages/api/*"]
-    },
+    }
   },
   "include": [
     "next-env.d.ts",
@@ -30,6 +30,6 @@
   ],
   "exclude": [
     "node_modules"
-  ],
+  ]
 
 }

@@ -1,6 +1,6 @@
-import useTranslation from 'next-translate/useTranslation'
-import { useRouter } from 'next/router'
 import { trpc } from '@utils/trpc'
+import { useRouter } from 'next/router'
+import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
   const { invalidateQueries } = trpc.useContext()
@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div>
       <nav className="bg-zinc-400">
-        <select onChange={changeLang} defaultValue={lang}>
+        <select defaultValue={lang} onChange={changeLang}>
           {router?.locales.map((locale, idx) => (
             <option key={idx} value={locale}>
               {locale}

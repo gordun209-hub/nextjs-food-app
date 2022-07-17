@@ -9,8 +9,8 @@ export function createContext({
   req: NextApiRequest
   res: NextApiResponse
 }) {
-  let user = null
-
+    let user = null
+  
   if (req.headers.AUTHORIZATION_TOKEN) {
     const token = req.headers.AUTHORIZATION_TOKEN as string
     const decoded = jwt.verify(token, process.env.JWT_SECRET as string) as any
