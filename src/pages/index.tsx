@@ -15,7 +15,7 @@ export default function Home() {
   const router = useRouter()
   const { t, lang } = useTranslation('common')
 
-  const changeLang = (e) => {
+  const changeLang = (e: any) => {
     router.push(router.asPath, router.asPath, {
       locale: e.target.value,
     })
@@ -25,7 +25,7 @@ export default function Home() {
     return <div>Loading...</div>
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault()
     const description = e.target.description.value
     mutate({ description })
