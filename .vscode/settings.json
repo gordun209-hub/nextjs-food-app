@@ -1,0 +1,54 @@
+{
+  "hidefiles.configurationType": "local",
+  "hidefiles.globalConfig": {
+    "profiles": [
+      {
+        "name": "Default",
+        "detail": "",
+        "description": "Test",
+        "hidden": [
+          ".vscode/",
+          "i18n.json",
+          "next-env.d.ts",
+          ".prettierrc",
+          "next.config.ts",
+          "package-lock.json",
+          "postcss.config.js",
+          "README.md",
+          "tailwind.config.js",
+          "yarn.lock",
+          "tsconfig.json",
+          "postcss.config.js",
+          "node_modules/",
+          ".next/",
+          "public/",
+          ".eslintrc.json",
+          ".gitignore",
+          "postcss.config.js",
+          "postcss.config.js",
+          "package.json",
+          "next.config.js",
+          ".env"
+        ],
+        "peek": [
+          "next.config.ts"
+        ]
+      },
+      {
+        "name": "Strict",
+        "detail": "Hide everything not immediately required",
+        "hidden": [
+          "$Default"
+        ]
+      }
+    ]
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "hidefiles.selectedProfile": "Show All Files"
+}
