@@ -1,5 +1,5 @@
-import { postRouter } from '@backend/routers/post'
-import { authRouter } from '@backend/routers/auth'
+import { postRouter } from '@backend/routers/post.router'
+import { authRouter } from '@backend/routers/auth.router'
 import { createRouter } from '@backend/helpers/createRouter'
 import { TRPCError } from '@trpc/server'
 

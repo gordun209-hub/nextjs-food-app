@@ -1,5 +1,4 @@
 import { createRouter } from '@backend/helpers/createRouter'
-import { z } from 'zod'
 import controller from '@backend/controllers/auth.controller'
 
 export const authRouter = createRouter()
@@ -21,5 +20,3 @@ export const authRouter = createRouter()
       return controller.signout({ ctx })
     },
   })
-
-

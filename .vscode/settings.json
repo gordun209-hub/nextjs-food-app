@@ -28,7 +28,9 @@
           "postcss.config.js",
           "package.json",
           "next.config.js",
-          ".env"
+          ".env",
+          ".env.example",
+          "LICENSE"
         ],
         "peek": [
           "next.config.ts"
@@ -48,7 +50,27 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true
+    "**/.DS_Store": true,
+    ".vscode/": true,
+    "i18n.json": true,
+    "next-env.d.ts": true,
+    ".prettierrc": true,
+    "package-lock.json": true,
+    "postcss.config.js": true,
+    "README.md": true,
+    "tailwind.config.js": true,
+    "yarn.lock": true,
+    "tsconfig.json": true,
+    "node_modules/": true,
+    ".next/": true,
+    "public/": true,
+    ".eslintrc.json": true,
+    ".gitignore": true,
+    "package.json": true,
+    "next.config.js": true,
+    ".env": true,
+    ".env.example": true,
+    "LICENSE": true
   },
-  "hidefiles.selectedProfile": "Show All Files"
+  "hidefiles.selectedProfile": "Default"
 }
